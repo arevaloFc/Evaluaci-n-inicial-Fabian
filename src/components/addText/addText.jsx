@@ -15,6 +15,7 @@ const AddText = () => {
                         name='anotacion'
                         />
                     </div>
+                    <div><button type='submit' className="btn btn-primary mt-3 mb-4">bo</button></div>
                 </form>
             </div>
         </>
