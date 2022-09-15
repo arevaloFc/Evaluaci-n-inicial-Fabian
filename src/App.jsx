@@ -1,8 +1,10 @@
+import AddText from "./components/AddText";
+
 const App = () => {
 
     return (
-        <> 
-        
+        <>
+            <AddText/>
         </> 
     )
 }
