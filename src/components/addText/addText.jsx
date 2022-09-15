@@ -4,9 +4,9 @@ const AddText = () => {
 
     return (
         <>
-            <div>
+            <div className="container">
                 <form id="formulario">
-                    <div className="mb-3 mx-3">
+                    <div className="col-auto">
                         <label htmlFor="anotacion" className="form-label fw-bold" >My TaskList App!!</label>
                         <input 
                         type="text" 
@@ -15,7 +15,7 @@ const AddText = () => {
                         name='anotacion'
                         />
                     </div>
-                    <div><button type='submit' className="btn btn-primary mt-3 mb-4">bo</button></div>
+                    <div><button type='submit'>Add</button></div>
                 </form>
             </div>
         </>
